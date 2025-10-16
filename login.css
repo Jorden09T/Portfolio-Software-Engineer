@@ -1,0 +1,120 @@
+
+/*login section*/
+.login-section{
+    height: 450;
+    margin: auto; 
+    margin-top: 15px; 
+    max-width: 1200px;
+    padding: 15px 0;
+    width: 90%;
+}
+
+.login-section .login-container{
+    background-color: var(--white);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 550px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 45px;
+    padding-bottom: 34%;
+    padding-top: 23px;;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login-section .login-container h2{
+    color: var(--hotpink);
+    padding: 10px 0;
+    padding-bottom: 4%;
+    padding-top: 8%;
+    line-height: 30px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.login-section .login-container .input-info{
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.login-section .login-container .input-info input{
+    border: 1px solid var(--purple);    
+    border-radius: 65px 85px;
+    width: 270px;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 0 15px;
+}
+
+.login-section .login-container .remember-me-container{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px;
+}
+
+.login-section .login-container .remember-me-container input[type="checkbox"]{
+    margin-left: auto;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.login-section .login-container .remember-me-container label{
+    font-size: 1em; /* Adjust font size as needed */
+    color: #333; /* Adjust text color */
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 4px;
+}
+
+.login-section .login-container .overlay .hyper-link{
+    padding-top: 7%;
+    color: #333;
+    cursor: pointer;
+    font-size: 1em;
+    margin: auto;
+}
+
+.login-section .login-container .overlay .text-style{
+    color: #F5A3C8;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login-section .login-container .overlay .text-style:link {
+    color: #F5A3C8; 
+    text-decoration: none;
+}
+
+.login-section .login-container .overlay .text-style:visited {
+    color: #F5A3C8; 
+    text-decoration: none;
+}
+
+.login-section .login-container .overlay .text-style:hover {
+    color: #C8A2C8; 
+    text-decoration: none;
+}
+
+.signonlg-btn{
+    background-color: var(--primary);
+    border: 6px var(--primary);
+    border-radius: 65px 85px;
+    color: var(--hotpink);
+    cursor: pointer;
+    font-size: .90rem;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    padding: 2px 5px;
+    width: 170px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.signonlg-btn:hover{
+    background-color: var(--purple); /* Background color on hover */
+    color: var(--purple);
+}
