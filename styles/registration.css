@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --white: #ffffff;
+    --primary: #B0E0E6;
+    --hotpink: #ED0D92;
+    --black: #0E000A;
+    --pink: #F5A3C8;
+    --yellow: #E9CA01;
+    --purple:#C8A2C8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.getstarted-section{
+    height: 600;
+    margin: auto; 
+}
+
+.getstarted-section .getstarted-container{
+    background: url('/images/hellokittyyellowred.jpg');
+    height: 250px;
+    width: 1920px;
+    padding-top: 27px;
+    padding-left: 340px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.getstarted-section .getstarted-container .billboard-getstarted {
+    background: rgb(255, 246, 251);
+    border: 2px solid var(--hotpink);
+    width: 400px;
+    padding: 20px;
+}
+
+.getstarted-section .getstarted-container .billboard-getstarted h2{
+    color: var(--hotpink);
+    text-decoration: none;
+}
